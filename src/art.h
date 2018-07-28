@@ -35,6 +35,7 @@ typedef struct {
     uint8_t num_children;
     uint32_t partial_len;
     unsigned char partial[MAX_PREFIX_LEN];
+	unsigned int test;
 } art_node;
 
 /**
